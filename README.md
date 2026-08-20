@@ -62,10 +62,6 @@ It does not require Internet access, does not collect analytics, and does not in
 
 > **Important:** Root access itself is highly privileged. Only install and use this application on devices you control and trust.
 
-### License
-
-Add the project's license here if/when one is chosen.
-
 ---
 
 ## Português
@@ -127,7 +123,3 @@ O TurnOffDevice-TV foi projetado para ter um escopo extremamente restrito. O apl
 Ele não precisa de acesso à Internet, não coleta analytics e não possui servidor remoto nem sistema de contas. Os comandos root utilizados pelo aplicativo são predefinidos no próprio programa, e não fornecidos pelo usuário.
 
 > **Importante:** acesso root é uma capacidade altamente privilegiada. Instale e utilize este aplicativo apenas em dispositivos que você controla e nos quais confia.
-
-### Licença
-
-Adicione aqui a licença do projeto quando uma for escolhida.
