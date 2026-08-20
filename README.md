@@ -1,4 +1,4 @@
-# TurnOffDevice-TV
+# Turn Off Device
 
 **A tiny Android app that turns off a rooted device with a single tap. Designed for Android TV boxes, but also usable on phones and tablets.**
 
@@ -6,7 +6,7 @@
 
 ### Overview
 
-TurnOffDevice-TV is a small, purpose-built Android utility that acts as a virtual power button. Its goal is simple: **tap the launcher icon and shut the device down**.
+Turn Off Device is a small, purpose-built Android utility that acts as a virtual power button. Its goal is simple: **tap the launcher icon and shut the device down**.
 
 The project was created for rooted Android TV boxes where shutting down the device would otherwise require navigating the system UI or using a remote-control app. Instead of opening a full interface, the app performs the shutdown flow immediately when launched.
 
@@ -56,7 +56,7 @@ A rooted Android device or Android TV box is required for the current shutdown i
 
 ### Security and privacy
 
-TurnOffDevice-TV is deliberately narrow in scope. The application exists to perform one privileged operation: shutting down the device.
+Turn Off Device is deliberately narrow in scope. The application exists to perform one privileged operation: shutting down the device.
 
 It does not require Internet access, does not collect analytics, and does not include a remote service or account system. The root commands used by the app are predefined by the application rather than entered by the user.
 
@@ -68,7 +68,7 @@ It does not require Internet access, does not collect analytics, and does not in
 
 ### Visão geral
 
-O TurnOffDevice-TV é um utilitário Android pequeno e específico que funciona como um **botão de desligar virtual**. A proposta é simples: **clicar no ícone do launcher e desligar o dispositivo**.
+O Turn Off Device é um utilitário Android pequeno e específico que funciona como um **botão de desligar virtual**. A proposta é simples: **clicar no ícone do launcher e desligar o dispositivo**.
 
 O projeto foi criado para TV Boxes Android com root, nas quais desligar o aparelho poderia exigir navegar pela interface do sistema ou usar um aplicativo de controle remoto. Em vez de abrir uma interface completa, o aplicativo executa o fluxo de desligamento imediatamente ao ser iniciado.
 
@@ -118,7 +118,7 @@ Para a implementação atual de desligamento, é necessário utilizar um disposi
 
 ### Segurança e privacidade
 
-O TurnOffDevice-TV foi projetado para ter um escopo extremamente restrito. O aplicativo existe para realizar uma única operação privilegiada: desligar o dispositivo.
+O Turn Off Device foi projetado para ter um escopo extremamente restrito. O aplicativo existe para realizar uma única operação privilegiada: desligar o dispositivo.
 
 Ele não precisa de acesso à Internet, não coleta analytics e não possui servidor remoto nem sistema de contas. Os comandos root utilizados pelo aplicativo são predefinidos no próprio programa, e não fornecidos pelo usuário.
 
