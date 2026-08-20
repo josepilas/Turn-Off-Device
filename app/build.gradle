@@ -1,0 +1,42 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.josepilas.turnoff'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.josepilas.turnoff"
+        minSdk 21
+        targetSdk 34
+        versionCode 2
+        versionName "1.1"
+    }
+
+    buildTypes {
+        release {
+            // Keep it simple and deterministic; no minification so the APK
+            // behaves identically to a debug build for a root utility.
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    // This is a tiny, framework-only root utility. Keep lint from blocking
+    // the release build for stylistic warnings.
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+}
+
+dependencies {
+    // Intentionally empty: the app uses only the Android framework.
+    // No AndroidX, no internet, no extra permissions.
+}

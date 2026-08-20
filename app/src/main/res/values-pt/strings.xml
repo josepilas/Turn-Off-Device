@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Portuguese (generic) resources. Android automatically selects this
+        folder for any device whose locale is Portuguese (pt-BR, pt-PT, ...),
+        so the app name becomes "Desligar Dispositivo" and the warning dialog
+        is shown in Portuguese as well.
+    -->
+    <string name="app_name">Desligar Dispositivo</string>
+    <string name="root_required_title">Acesso root necessário</string>
+    <string name="root_required_message">Este aplicativo requer acesso root para desligar o dispositivo.</string>
+    <string name="ok">OK</string>
+</resources>
