@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://ko-fi.com/josepilas" target="_blank" rel="noopener noreferrer">
+    <img src="https://josepilas.github.io/kofi.webp" alt="Ko-fi" width="300" />
+  </a>
+</p>
+
 # Turn Off Device
 
 **A tiny Android app that turns off a rooted device with a single tap. Designed for Android TV boxes, but also usable on phones and tablets.**
